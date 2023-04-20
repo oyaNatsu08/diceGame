@@ -20,7 +20,7 @@ public class DiceGame {
     }
 
     //ゲームの結果を表示するメソッド
-    //引数：num→ダイスを振る回数を値受け渡し count→何回目のゲームかをカウント win→勝利数 lose→敗北数 draw→引き分け数
+    //引数：num→ダイスを振る回数を値受け渡し count→何回目のゲームかをカウント
     public static void resultGame(int num, int count) {
         //各戦歴の初期値を設定
         var win = 0;
